@@ -18,8 +18,8 @@ ters proxy ile birlesik koruma saglayarak modern mikroservis yapılarında kulla
 AAWAF ve uWAF gibi daha hafif çözümler küçük ölçekli projeler için yeterli koruma saglayabilirken,
 Shadow Daemon özellikle PHP tabanlı sistemlere entegre çalısan ajan yapısıyla dikkat
 çekmektedir. Sonuç olarak, bu çalısma her bir WAF çözümünü hem teorik hem pratik olarak
-degerlendirerek farklı senaryolarda hangi WAF’ın tercih edilmesi gerektigine dair rehber niteli
-ginde bir özet sunmaktadır. Özellikle SafeLine’ın DVWA ile test edilmesi, gerçek dünya
+degerlendirerek farklı senaryolarda hangi WAF’ın tercih edilmesi gerektigine dair rehber niteliginde 
+bir özet sunmaktadır. Özellikle SafeLine’ın DVWA ile test edilmesi, gerçek dünya
 kullanımında sagladıgı korumayı somut biçimde göstermesi açısından çalısmanın öne çıkan
 bölümünü olusturmaktadır.
 
