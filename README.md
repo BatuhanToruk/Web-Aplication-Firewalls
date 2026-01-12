@@ -11,12 +11,12 @@ ayrı bir yer verilmis ve bu çözüm, yaygın zafiyetlere sahip bir test platfo
 Vulnerable Web Application) üzerinde Docker altyapısı kullanılarak pratik olarak test edilmistir.
 SafeLine’ın SQL Injection, XSS ve brute force gibi tipik saldırı vektörlerine karsı etkin
 savunma sagladıgı gözlemlenmistir. Yapılan testlerde SafeLine, yalnızca saldırı girisimlerini
-engellemekle kalmamıs, aynı zamanda saldırı günlüklerini anla¸sılır bir biçimde sunarak analiz
-sürecini kolayla¸stırmı¸stır. Diger WAF çözümleri ile karsılastırıldıgında; ModSecurity kural
+engellemekle kalmamıs, aynı zamanda saldırı günlüklerini anlasılır bir biçimde sunarak analiz
+sürecini kolaylastırmıstır. Diger WAF çözümleri ile karsılastırıldıgında; ModSecurity kural
 tabanlı esnek yapısıyla büyük ölçekli sistemler için ideal bir çözüm sunarken, BunkerWeb
-ters proxy ile birle¸sik koruma saglayarak modern mikroservis yapılarında kullanılabilmektedir.
+ters proxy ile birlesik koruma saglayarak modern mikroservis yapılarında kullanılabilmektedir.
 AAWAF ve uWAF gibi daha hafif çözümler küçük ölçekli projeler için yeterli koruma saglayabilirken,
-Shadow Daemon özellikle PHP tabanlı sistemlere entegre çalı¸san ajan yapısıyla dikkat
+Shadow Daemon özellikle PHP tabanlı sistemlere entegre çalısan ajan yapısıyla dikkat
 çekmektedir. Sonuç olarak, bu çalısma her bir WAF çözümünü hem teorik hem pratik olarak
 degerlendirerek farklı senaryolarda hangi WAF’ın tercih edilmesi gerektigine dair rehber niteli
 ginde bir özet sunmaktadır. Özellikle SafeLine’ın DVWA ile test edilmesi, gerçek dünya
